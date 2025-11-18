@@ -1,11 +1,8 @@
 module.exports = {
-  extends: ["next/core-web-vitals", "../../.eslintrc.js"],
+  extends: ["../../.eslintrc.js"],
   parserOptions: {
-    tsconfigRootDir: __dirname,
-    project: "./tsconfig.json",
+    ecmaVersion: 2020,
+    sourceType: "module",
   },
   ignorePatterns: [".eslintrc.js", "next.config.js", "postcss.config.js", "tailwind.config.ts"],
-  rules: {
-    "@next/next/no-html-link-for-pages": ["error", "src/app"],
-  },
 };

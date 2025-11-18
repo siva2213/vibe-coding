@@ -8,6 +8,7 @@ export function Navbar(): JSX.Element {
 
   const navLinks = [
     { name: "Home", href: "/" },
+    { name: "Dashboard", href: "/dashboard" },
     { name: "Services", href: "/services" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
